@@ -7,5 +7,5 @@ rich
 spotipy
 youtube-search-python
 yt_dlp==2024.09.27
-python
+python-dotenv
 https://github.com/coletdjnz/yt-dlp-youtube-oauth2/archive/refs/heads/master.zip
