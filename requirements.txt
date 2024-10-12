@@ -1,5 +1,5 @@
 wheel
-aiohttp
+aiohttp==3.9.0b0
 aiogram~=2.22.2
 asyncio
 odesli
