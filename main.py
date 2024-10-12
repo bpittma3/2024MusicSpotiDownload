@@ -143,7 +143,7 @@ async def handle_url(message: types.Message):
 
 @dp.message_handler()
 async def handle_text(message: types.Message):
-    log.info(f"Got text: [blue]{message.text}[/] from [blue]{message.from_user.full_name}[/] / [blue]{message.from_id}[/]")
+    log.info(f"Got text: [blue]{message.text}[/] from [blue]{message.from_user.full_name}[/] / [blue]{message.from_user.id}[/]")
     log.info(f"Searching [blue]{message.text}[/]")
     new = await message.reply("⏳ Searching...")
 
