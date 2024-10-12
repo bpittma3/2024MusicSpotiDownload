@@ -1,6 +1,6 @@
 # Save this file as config.yml
-bot_token: "BOT_TOKEN"
-spotify_id: "SPOTIFY_ID"
-spotify_secret: "SPOTIFY_SECRET"
+bot_token: "7452540159:AAH3oV5hn7-yT6YX85O-US7sIwpjBRiJqvY"
+spotify_id: "9d62a7c9c58240b1a2c022809adaafff"
+spotify_secret: "9a307e5dd158451295fc1b7fdda0cd8f"
 playlist_limit: 25
 search_limit: 10
