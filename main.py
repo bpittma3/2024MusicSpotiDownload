@@ -114,7 +114,7 @@ async def handle_url(message: types.Message):
     # TODO: Add support for playlists (so far only Spotify and Youtube)
     new = await message.reply("⏳ Acquiring metadata...")
     try:
-        log.info(f"Got URL: [blue]{message.text}[/] from [blue]{message.from_user.full_name}[/] / [blue]{message.from_id}[/]")
+        log.info(f"Got text: [blue]{message.text}[/] from [blue]{message.from_user.full_name}[/] / [blue]{message.from_user.id}[/]")
         result = odesli.getByUrl(message.text)
         if "youtube" not in result.songsByProvider.keys():
             log.warn(f"No YouTube link found for [yellow]{message.text}[/]")
